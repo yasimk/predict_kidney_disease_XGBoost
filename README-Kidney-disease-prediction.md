@@ -9,10 +9,10 @@ The data set details are here - https://archive.ics.uci.edu/ml/datasets/chronic_
 ### 2. Visualize the data to gain insights- Use heatmap to understand +ve/-ve correlations to target variable
 ![kidney_prediction_heatmap](https://user-images.githubusercontent.com/34105353/51875881-5e59fe00-232c-11e9-9a8f-a3d3b6b8be5e.png)
 
-Use pair plot to study data and gain insights
+### Use pair plot to study data and gain insights
 ![kidney_prediction_pairplot-01](https://user-images.githubusercontent.com/34105353/51875878-5dc16780-232c-11e9-8311-23f6130ee441.png)
 
-Use pair plot to study data and gain insights
+### Use box plot to study data and gain insights
 ![kidney_prediction_boxplot-01](https://user-images.githubusercontent.com/34105353/51876161-3e770a00-232d-11e9-90ea-4ce79f5621ba.png)
 
 ### 3. Use scikit learn train_test_split to split the data to training and testing
@@ -26,7 +26,7 @@ Use pair plot to study data and gain insights
 
 ### 7. Train the model using XGBoost DMatrix and passing the best/optimal hyper parameters
 
-###8. Visualize the tree using plot_tree() function. This will tell us how the data is split across the trees
+### 8. Visualize the tree using plot_tree() function. This will tell us how the data is split across the trees
 ![xgb plot tree](https://user-images.githubusercontent.com/34105353/51875879-5dc16780-232c-11e9-94ab-0024b76fbe4c.png)
 
 ### 9. Visualize the important features used in the model using feature_importance() function
