@@ -1,6 +1,8 @@
 # Kidney Disease Prediction - Predict whether the patient has kidney disease (1) or not (0)
 The data set details are here - https://archive.ics.uci.edu/ml/datasets/chronic_kidney_disease
 
+## Objective of this model - Predict whether a patient will have kidney disease or not based on historical data. 
+
 I have used XGBoost algorithm here for prediction. Extreme Gradient boosting (XGBoost) is a supervised learning algorithm that attempts to predict a target variable by combining the estimates of a set of simpler, weaker models. XGBoost has done remarkably well in machine learning competitions because it robustly handles a wide variety of data types, relationships, and distributions. It often is a useful, go-to algorithm in working with structured data, such as data that might be found in relational databases and flat files.
 
 ## Steps done to do the prediction using XGBoost
